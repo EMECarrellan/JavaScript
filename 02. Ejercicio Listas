@@ -1,0 +1,13 @@
+const lista = [
+    "Estefania",
+    28,
+    false,
+    new Date (2020, 4, 28),
+    { 
+        titulo: "1984",
+        autor: "George Orwell",
+        anyo: "1949",
+        url: "https://www.casadellibro.com/libro-1984/9788499890944/2034881"
+    },
+    console.log(lista)
+];
