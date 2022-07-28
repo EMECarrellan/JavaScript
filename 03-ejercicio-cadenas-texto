@@ -1,0 +1,15 @@
+const nombre = "Estefanía";
+const apellido = "Montes";
+let estudiante = (`${nombre} ${apellido}`);
+
+const estudianteMayus = (estudiante.toUpperCase());
+const estudianteMinus = (estudiante.toLowerCase());
+
+const estudianteLength = (estudiante.length);
+
+const primeraLetra = (estudiante.at(0));
+const ultimaLetra = (estudiante.at(-1));
+
+const noSpace = (estudiante.replace(" ",""));
+
+const included = estudiante.includes(nombre);
